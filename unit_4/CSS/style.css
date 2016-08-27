@@ -21,13 +21,14 @@ h1 {
 
 #slogan {
 	font-family: 'Raleway', cursive;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;
 }
 
 #Body {
-	text-align: center;
 	font-family: 'Raleway', cursive;
+	text-align: center;
+	font-size: 14px;
 }
 
 #Contact {
