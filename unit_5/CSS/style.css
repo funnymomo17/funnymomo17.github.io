@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+div {
+	padding: 20px;
+}
+
+body {
+	background-size: cover;
+	color: black;
+}
+header {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #FFFAFA;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Abril Fatface';
+	font-size: 32px;
+	letter-spacing: 1.2px; 
+	word-spacing: 1.2px ;
+}
+
+nav {
+	border: 3px black solid;
+	padding: 20px;
+	font-family: 'Raleway', cursive;
+	text-align: center;
+	font-size: 14px;
+	padding: 20px;
+	background-color: #FFFAFA;
+}
+
+article {
+	border: 3px black solid;
+	padding: 20px;
+	font-family: 'Raleway', cursive;
+	text-align: center;
+	font-size: 14px;
+	padding: 20px;
+	background-color: #FFFAFA;
+}
+
+#slogan {
+	font-family: 'Raleway', cursive;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*#one {
+	border: 0.5px black solid;
+	font-family: 'Raleway', cursive;
+	font-size: 14px;
+	padding: 20px;
+}*/
+
+#two {
+	border: 0.5px black solid;
+	font-family: 'Raleway', cursive;
+	font-size: 14px;
+	padding: 20px;
+}
+
+#three {
+	border: 0.5 black solid;
+	font-family: 'Raleway', cursive;
+	font-size: 14px;
+	padding: 20px;
+}
+
+h2,h3,h4 {
+	text-align: center;
+	font-family: 'Abril Fatface';
+	font-size: 24px;
+	letter-spacing: 1.2px; 
+	word-spacing: 1.2px ;
+}
+
+.description,.photos,.appointments,.trunk,.bridal {
+	font-family: 'Raleway', cursive;
+	text-align: center;
+	font-size: 14px;
+	padding: 20px;
+}
+
+footer{
+	border: 3px black solid;
+	padding: 20px;
+	background-color: #FFFAFA
+}
+
+#Contact {
+	font-family: 'Raleway', Times;
+	text-align: right;
+}
