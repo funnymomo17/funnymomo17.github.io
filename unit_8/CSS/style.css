@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+	position: relative;
+}
+header {
+	border: 1px hidden;
+	padding: 20px;
+	/*background-color: #FFF2F0;*/
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Abril Fatface';
+	font-size: 2em;
+	letter-spacing: 1.2px; 
+	word-spacing: 1.2px ;
+}
+
+nav {
+	border: 3px hidden;
+	padding: 20px;
+	text-align: center;
+	height: 50px;
+	font-size: 0.88em;
+	background-color: #FFF1F1;
+}
+
+/*LoVe HAte*/
+
+nav a:link{
+	font-family: 'Raleway', cursive;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1.2px;
+	text-align: center;
+	margin: 0 15px;
+}
+
+nav a:visited{
+	color: #000;
+}
+
+nav a:hover{
+	border-bottom: 1px solid #000;
+}
+
+nav a:active{
+	color: #000;
+}
+
+
+main {
+	height: 300px;
+}
+
+article {
+	border: 3px hidden;
+	padding: 20px;
+	font-family: 'Raleway', cursive;
+	text-align: center;
+	font-size: 0.88em;
+	padding: 20px;
+	/*background-color: #FFF5EE;*/
+}
+
+#slogan {
+	font-family: 'Raleway', cursive;
+	font-size: 0.88em;
+	text-align: center;
+}
+
+#two {
+	border: 0.5px hidden;
+	font-family: 'Raleway', cursive;
+	font-size: 0.88em;
+	padding: 20px;
+}
+
+#three {
+	border: 0.5 hidden;
+	font-family: 'Raleway', cursive;
+	font-size: 0.88em;
+	padding: 20px;
+}
+
+h2,h3,h4 {
+	text-align: center;
+	font-family: 'Raleway';
+	font-weight: 700px;
+	font-size: 1.5em;
+	letter-spacing: 1.2px; 
+	word-spacing: 1.2px ;
+}
+
+#two_column {
+	/*background-color: #BFA6AD;*/
+	padding: 20px;
+	border: 1px hidden;
+}
+
+#left{
+	/*background-color: #FFF5EE;*/	
+	border: 1px hidden;
+	padding: 13px;
+	float: left;
+	width: 42%;
+}
+
+#right{
+	/*background-color: #FFF5EE;*/
+	border: 1px hidden;
+	padding: 14px;
+	float: right;
+	width: 42%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height: 0;
+}
+
+.bridal {
+	font-family: 'Raleway', cursive;
+	text-align: center;
+	font-size: 0.88em;
+	padding: 20px;
+}
+
+footer{
+	border: 3px hidden;
+	padding: 20px;
+	background-color: #4D4246;
+}
+
+#Contact {
+	font-family: 'Raleway', Times;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: right;
+	padding: bottom;
+}
+
+@media screen only and (max-width : 900px) {
+	nav {
+		float: none;
+	}
+	#two, #three {
+		font-size: 0.75em;
+	}
+}
